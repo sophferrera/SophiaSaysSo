@@ -1,0 +1,113 @@
+body {
+  background-image: url(background3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #03588C;
+  color: #05F2C7;
+  font-size: 2rem;
+  padding: 1vmin;
+}
+
+a, a:visited {
+  color: #05F2C7;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+}
+
+.notebook {
+  text-align: center;
+  position: relative;
+}
+
+.head1, .head2 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+
+}
+
+.head1 {
+  left: 3vmin;
+}
+
+.head2 {
+  transform: scaleX(-1);
+  right: 3vmin;
+}
+
+.soph {
+  font-family: 'Mansalva', cursive;
+}
+
+.soph1 {
+  position: absolute;
+  font-size: 4.5rem;
+  top: 16%;
+  left: 36%;
+}
+
+.soph2 {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 33%;
+  left: 27%;
+}
+
+.navMenu, .tipOfDay, .question, .answer, .budget {
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.tipOfDay p {
+  margin: 0;
+}
+
+.tipOfDay {
+  color: #D9FFD9;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 54%;
+  left: 38%;
+  width: 29%;
+
+}
+
+.landscape {
+  height: 40vh;
+  max-height: 100%;
+  padding: 8px;
+}
+
+.static {
+  display: flex;
+  justify-content: center;
+  padding: 1vmin;
+}
+
+.question {
+  color: #D9FFD9;
+
+}
+
+.answer {
+  color: #DAD4FD;
+}
+
+.boxes {
+  text-align: center;
+  position: relative;
+
+}
+
+.box{
+  padding: 15px;
+}
