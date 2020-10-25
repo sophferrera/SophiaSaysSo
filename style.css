@@ -1,5 +1,5 @@
 body {
-  background-image: url(background3.jpg);
+  background-image: url(background3.png);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,15 +24,10 @@ a, a:visited {
   display: flex;
 }
 
-.notebook {
-  text-align: center;
-  position: relative;
-}
-
 .head1, .head2 {
   display: flex;
   position: absolute;
-  justify-content: center;
+  justify-content: space-between;
 
 }
 
@@ -46,21 +41,19 @@ a, a:visited {
 }
 
 .soph {
+  background-image: url("notebook.png");
+  display: flex;
+  justify-content: center;
   font-family: 'Mansalva', cursive;
 }
 
+
 .soph1 {
-  position: absolute;
   font-size: 4.5rem;
-  top: 16%;
-  left: 36%;
 }
 
 .soph2 {
-  position: absolute;
   font-size: 1.5rem;
-  top: 33%;
-  left: 27%;
 }
 
 .navMenu, .tipOfDay, .question, .answer, .budget {
@@ -93,21 +86,64 @@ a, a:visited {
   padding: 1vmin;
 }
 
+.faq {
+  font-family: 'Mansalva', cursive;
+  font-size: 4rem;
+  color: #111;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 .question {
   color: #D9FFD9;
+  font-size: 1.75rem;
 
 }
 
 .answer {
   color: #DAD4FD;
+  font-size: 1.75rem;
 }
 
-.boxes {
+.qa {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
-  position: relative;
+}
 
+.questionBox {
+  background-image: url("background1.jpg");
+  width: 65%;
 }
 
 .box{
   padding: 15px;
+}
+
+.money {
+  display: flex;
+  justify-content: center;
+  padding: 4vmin;
+}
+
+.budget {
+  font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #DAD4FD;
+}
+
+.cheetah {
+  background-image: url("background4.png");
+  width: 65%;
+}
+
+.map {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4vmin;
 }
