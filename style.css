@@ -6,14 +6,6 @@ body {
   padding: 10px;
 }
 
-.navMenu {
-  display: flex;
-  justify-content: space-around;
-  background-color: #03588C;
-  color: #05F2C7;
-  font-size: 2rem;
-  padding: 1vmin;
-}
 
 a, a:visited {
   color: #05F2C7;
@@ -41,10 +33,11 @@ a, a:visited {
 }
 
 .soph {
-  background-image: url("notebook.png");
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   font-family: 'Mansalva', cursive;
+  background-image: url("notebook.png");
 }
 
 
@@ -56,7 +49,7 @@ a, a:visited {
   font-size: 1.5rem;
 }
 
-.navMenu, .tipOfDay, .question, .answer, .budget {
+.navMenu, .tipOfDay, .question, .answer, .budget, .info {
   font-family: 'Sue Ellen Francisco', cursive;
 }
 
@@ -66,12 +59,11 @@ a, a:visited {
 
 .tipOfDay {
   color: #D9FFD9;
-  position: absolute;
-  font-size: 1.5rem;
-  top: 54%;
-  left: 38%;
-  width: 29%;
-
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 4vmin;
+  width: 80%;
 }
 
 .landscape {
@@ -128,6 +120,11 @@ a, a:visited {
   padding: 4vmin;
 }
 
+.budget a, a:visited {
+  color: #DAD4FD;
+  text-decoration: underline;
+}
+
 .budget {
   font-size: 1.75rem;
   display: flex;
@@ -142,8 +139,18 @@ a, a:visited {
   width: 65%;
 }
 
-.map {
+.mapSec {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+}
+
+.info {
+  padding-left: 4vmin;
+  font-size: 1.75rem;
+  color: #D9FFD9;
+  background-image: url("background5.png");
+}
+
+.map {
   padding: 4vmin;
 }
