@@ -6,6 +6,99 @@ body {
   padding: 10px;
 }
 
+.alien {
+  position: absolute;
+  top: 1300px;
+  left: 1200px;
+  transform: rotate(-40deg);
+}
+
+.berry {
+  top: 4500px;
+  left: 1200px;
+  position: absolute;
+  transform: rotate(60deg);
+
+}
+
+.bolt {
+  top: 340px;
+  left: 1150px;
+  position: absolute;
+
+}
+
+.cactus {
+  top: 1150px;
+  left: 60px;
+  position: absolute;
+
+}
+
+.cherry {
+  top: 4300px;
+  left: 70px;
+  position: absolute;
+
+}
+
+.cupcake {
+  top: 3500px;
+  left: 50px;
+  position: absolute;
+
+}
+
+.donut {
+  top: 2600px;
+  left: 130px;
+  position: absolute;
+
+}
+
+.lolli {
+  top: 5500px;
+  left: 1200px;
+  position: absolute;
+  transform: rotate(30deg);
+
+}
+
+.melon {
+  top: 5000px;
+  left: 140px;
+  position: absolute;
+
+}
+
+.mouth {
+  top: 1800px;
+  left: 100px;
+  position: absolute;
+
+}
+
+.peace {
+  top: 3000px;
+  left: 1200px;
+  position: absolute;
+
+}
+
+.point {
+  top: 2150px;
+  left: 1200px;
+  position: absolute;
+
+}
+
+.teeth {
+  top: 5400px;
+  left: 50px;
+  position: absolute;
+
+}
+
 
 a, a:visited {
   color: #05F2C7;
@@ -24,29 +117,33 @@ a, a:visited {
 }
 
 .head1 {
-  left: 3vmin;
+  left: 20vmin;
 }
 
 .head2 {
   transform: scaleX(-1);
-  right: 3vmin;
+  right: 20vmin;
 }
 
 .soph {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   font-family: 'Mansalva', cursive;
-  background-image: url("notebook.png");
+  padding-top: 50px;
 }
 
 
 .soph1 {
-  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 6rem;
+  margin: 0;
 }
 
 .soph2 {
-  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 2.5rem;
 }
 
 .navMenu, .tipOfDay, .question, .answer, .budget, .info {
@@ -59,11 +156,22 @@ a, a:visited {
 
 .tipOfDay {
   color: #D9FFD9;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 10px;
+  background-image: url("background6.png");
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 50%;
   font-size: 4vmin;
-  width: 80%;
+}
+
+.mitski {
+  position: absolute;
+  top: 400px;
+  left: 900px;
+  background-image: url("background6.png");
 }
 
 .landscape {
@@ -78,7 +186,7 @@ a, a:visited {
   padding: 1vmin;
 }
 
-.faq {
+.faq, .howTo, .mapTime {
   font-family: 'Mansalva', cursive;
   font-size: 4rem;
   color: #111;
@@ -114,10 +222,18 @@ a, a:visited {
   padding: 15px;
 }
 
-.money {
-  display: flex;
-  justify-content: center;
-  padding: 4vmin;
+.dollar1 {
+  position: absolute;
+  top: 4000px;
+  left: 1150px;
+  transform: rotate(20deg);
+}
+
+.dollar2 {
+  position: absolute;
+  top: 4000px;
+  left: 90px;
+  transform: rotate(-20deg);
 }
 
 .budget a, a:visited {
