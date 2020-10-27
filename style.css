@@ -99,6 +99,36 @@ body {
 
 }
 
+.blue {
+  position: absolute;
+  left: 110px;
+  top: 3000px;
+  transform: rotate(-10deg);
+}
+
+.cute {
+  position: absolute;
+  left: 1150px;
+  top: 2600px;
+  transform: rotate(-10deg);
+
+}
+
+.design {
+  position: absolute;
+  left: 100px;
+  top: 2270px;
+  transform: rotate(15deg);
+
+}
+
+.shoes {
+  position: absolute;
+  top: 4870px;
+  left: 1150px;
+  transform: rotate(30deg);
+}
+
 
 a, a:visited {
   color: #05F2C7;
@@ -128,6 +158,7 @@ a, a:visited {
 .soph {
   font-family: 'Mansalva', cursive;
   padding-top: 50px;
+  text-shadow: 3px 3px #D9FFD9;
 }
 
 
@@ -186,13 +217,14 @@ a, a:visited {
   padding: 1vmin;
 }
 
-.faq, .howTo, .mapTime {
+.faq, .howTo, .mapTime, .remember {
   font-family: 'Mansalva', cursive;
   font-size: 4rem;
   color: #111;
   text-align: center;
   display: flex;
   justify-content: center;
+  text-shadow: 3px 3px #D9FFD9;
 }
 
 .question {
